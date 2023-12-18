@@ -47,6 +47,10 @@ header a {
     margin-bottom: 1em;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 /* Navbar styles with dropdown toggle*/
 nav {
    position: absolute;
