@@ -158,6 +158,14 @@ div > hr {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background: url(".../images/reasons-image.webp") no-repeat top center / cover ;
+    height:90vw;
+    width: 90vw;
+
+
+}
+
 /* Media query : tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
