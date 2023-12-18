@@ -214,6 +214,15 @@ div > hr {
     color:#fafafa
 }
 
+/* Media query : larger or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
+
 /* Media query : tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -271,9 +280,19 @@ div > hr {
         align-self: flex-end;
     }
 
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
+
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos {
+        column-count: 4;
+        column-gap: 0;
     }
     
 }
